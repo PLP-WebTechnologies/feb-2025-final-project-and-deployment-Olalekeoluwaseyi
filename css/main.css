@@ -1,0 +1,121 @@
+/* Import reset styles */
+@import 'reset.css';
+
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Category-specific header colors */
+header.bg-primary { background-color: #0d6efd !important; } /* General/Home */
+header.bg-danger { background-color: #dc3545 !important; } /* Politics */
+header.bg-success { background-color: #198754 !important; } /* Sports */
+header.bg-primary { background-color: #0d6efd !important; } /* Education */
+header.bg-warning { background-color: #ffc107 !important; } /* Religion */
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Badge styles */
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
+
+/* Social links */
+.social-links a {
+    font-size: 1.2rem;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #212529 !important;
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #adb5bd !important;
+}
+
+/* Category colors */
+.category-politics {
+    color: #dc3545;
+}
+
+.category-sports {
+    color: #198754;
+}
+
+.category-education {
+    color: #0d6efd;
+}
+
+.category-religion {
+    color: #ffc107;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+/* News ticker */
+.news-ticker {
+    background-color: #343a40;
+    color: white;
+    padding: 0.5rem 0;
+    overflow: hidden;
+}
+
+.ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker 30s linear infinite;
+}
+
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}

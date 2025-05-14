@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naija News Network | Latest Nigerian News</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Naija News Network</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="politics.html">Politics</a></li>
+                            <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="education.html">Education</a></li>
+                            <li><a class="dropdown-item" href="religion.html">Religion</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1>Naija News Network</h1>
+            <p class="lead">Your trusted source for Nigerian politics, sports, education, and religious news</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="mb-4">Breaking News</h2>
+                
+                <!-- Featured Politics News -->
+                <div class="card mb-4">
+                    <img src="assets/images/politics/Nigeria Election.jpeg" class="card-img-top" alt="Nigerian Election">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">Politics</span>
+                        <h3 class="card-title">2023 Presidential Election: INEC Announces Final Results</h3>
+                        <p class="card-text">The Independent National Electoral Commission has released the final results of the 2023 presidential election amid controversy from opposition parties...</p>
+                        <a href="#" class="btn btn-primary read-more">Read Full Story</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on February 28, 2023
+                    </div>
+                </div>
+                
+                <!-- Featured Sports News -->
+                <div class="card mb-4">
+                    <img src="assets/images/about/sport1.jpeg" class="card-img-top" alt="Super Eagles">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Sports</span>
+                        <h3 class="card-title">Super Eagles Qualify for AFCON Quarterfinals</h3>
+                        <p class="card-text">Nigeria's national football team secured their place in the quarterfinals of the Africa Cup of Nations with a 2-0 victory over Cameroon...</p>
+                        <a href="#" class="btn btn-primary read-more">Read Full Story</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Posted on January 28, 2023
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <!-- Category Navigation -->
+                <div class="card mb-4">
+                    <div class="card-header bg-dark text-white">
+                        <h4>News Categories</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <a href="politics.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                Politics
+                                <span class="badge bg-danger rounded-pill">14</span>
+                            </a>
+                            <a href="sports.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                Sports
+                                <span class="badge bg-success rounded-pill">23</span>
+                            </a>
+                            <a href="education.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                Education
+                                <span class="badge bg-primary rounded-pill">8</span>
+                            </a>
+                            <a href="religion.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                Religion
+                                <span class="badge bg-warning text-dark rounded-pill">11</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trending News -->
+                <div class="card mb-4">
+                    <div class="card-header bg-dark text-white">
+                        <h4>Trending Now</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <h6>ASUU Strike: Lecturers Give FG 2-Week Ultimatum</h6>
+                                <small class="text-muted">Education</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <h6>Buhari Signs New Electoral Act Amendment Bill</h6>
+                                <small class="text-muted">Politics</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <h6>Osimhen Named Serie A Player of the Month</h6>
+                                <small class="text-muted">Sports</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <h6>CAN Reacts to Rising Insecurity in Northern Nigeria</h6>
+                                <small class="text-muted">Religion</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Newsletter Subscription -->
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h4>Newsletter</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Get daily updates on Nigerian news straight to your inbox</p>
+                        <form id="subscribeForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Naija News Network</h5>
+                    <p>Your trusted source for authentic Nigerian news and updates.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Naija News Network. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap JS -->
+     <script src="js/bootstrap.js"></script>
+     <!-- Custom JS -->
+     <script src="js/main.js"></script>
+</body>
+</html>
